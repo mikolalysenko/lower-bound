@@ -1,0 +1,31 @@
+{
+  "name": "lower-bound",
+  "version": "0.0.0",
+  "description": "Finds the first item in an array less than or equal to a given value",
+  "main": "lb.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "~0.4.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/lower-bound.git"
+  },
+  "keywords": [
+    "lower",
+    "bound",
+    "binary",
+    "search",
+    "array"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "dd4b3f9debe4faaee414c9e354b4f21ef10b22e4"
+}

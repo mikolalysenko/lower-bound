@@ -1,6 +1,6 @@
 {
   "name": "lower-bound",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Finds the first item in an array less than or equal to a given value",
   "main": "lb.js",
   "directories": {

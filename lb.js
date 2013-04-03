@@ -25,10 +25,12 @@ function lowerBound_def(array, value, lo, hi) {
   hi = hi|0
   while(lo < hi) {
     var m = (lo + hi) >>> 1
-    if(value <= array[m]) {
+    if(value < array[m]) {
       hi = m-1
-    } else {
+    } else if(value > array[m]) {
       lo = m+1
+    } else {
+      hi = m
     }
   }
   if(array[lo] <= value) {

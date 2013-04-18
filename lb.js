@@ -53,3 +53,4 @@ function lowerBound(array, value, compare, lo, hi) {
 }
 
 module.exports = lowerBound
+

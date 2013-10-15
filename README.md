@@ -1,6 +1,6 @@
 lower-bound
 ===========
-Finds the first item in a sorted array less than or equal to a value.
+Finds the first item in a sorted array greater than or equal to a value.
 
 
 Use
@@ -19,7 +19,7 @@ console.log(lb([0, 1, 1, 1, 2], 1.5))   // Prints 3
 ```
 
 ### `require("lower-bound")(array, value[, compare, lo, hi])`
-Uses a binary search to find the first item which is <= to value in array.
+Uses a binary search to find the first item which is >= to value in array.
 
 * `array` a sorted list of items
 * `value` the item to find

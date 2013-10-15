@@ -2,6 +2,9 @@ lower-bound
 ===========
 Finds the first item in a sorted array greater than or equal to a value.
 
+# DEPRECATED
+
+Use [binary-search-bounds](https://github.com/mikolalysenko/binary-search-bounds) instead.
 
 Use
 ===
